@@ -6,7 +6,10 @@
     <title>Monkey Title</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -31,25 +34,51 @@
         <div class="projects">
             <h1>Projects</h1>
             <div class="project">
-              <img src="img/julytalk.png" alt="July Talk Project" />
-              <h2>Title of Project</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facere, ab aperiam? Corporis ea a, labore reiciendis totam quasi repellat, quae consequatur veritatis dolorem doloribus beatae nulla id, maiores quibusdam.</p>
+                <img src="img/julytalk.png" alt="July Talk Project" />
+                <div class="top">
+                    <h2>July Talk Promo</h2>
+                    <h3>Responsive Web Design</h3>
+                    <div class="used">
+                        <img src="img/html5/html5-original-wordmark.svg" alt="HTML5" />
+
+                        <img src="img/css3/css3-original-wordmark.svg" alt="CSS3" />
+
+                        <img src="img/jquery/jquery-original.svg" alt="jQuery" />
+
+                        <img src="img/sass/sass-original.svg" alt="Sass" />
+                        <img src="img/github/github-original.svg" alt="GitHub" />
+                    </div>
+                    <button onclick="document.querySelector('#julytalk').classList.toggle('hide');" class="toggle">description</button>
+                    <button onclick="#" class="link"><span class="fa fa-external-link"></span></button>
+                </div>
+                <div class="desc hide" id="julytalk">
+                    <p>I created a responsive website as preliminary design research for my SVG course. The final project will be to create my own unique promotional responsive poster using SVGs.</p>
+                </div>
             </div>
 
-            <div class="project">
-              <img src="img/julytalk.png" alt="July Talk Project" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facere, ab aperiam? Corporis ea a, labore reiciendis totam quasi repellat, quae consequatur veritatis dolorem doloribus beatae nulla id, maiores quibusdam.</p>
-            </div>
 
             <div class="project">
-              <img src="img/julytalk.png" alt="July Talk Project" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facere, ab aperiam? Corporis ea a, labore reiciendis totam quasi repellat, quae consequatur veritatis dolorem doloribus beatae nulla id, maiores quibusdam.</p>
+                <img src="img/happy-sunshine.png" alt="Happy Sunshine Project" />
+                <div class="top">
+                    <h2>Happy Sunshine Food Truck App</h2>
+                    <h3>High Fidelity Prototype</h3>
+                    <div class="used">
+                        <img src="img/uxpin-logo.png" alt="UXPin" />
+
+                        <img src="img/photoshop/photoshop-plain.svg" alt="Photoshop" />
+                        <img src="img/illustrator/illustrator-plain.svg" alt="Illustrator" />
+
+                    </div>
+                    <button onclick="document.querySelector('#happysunshine').classList.toggle('hide');" class="toggle">description</button>
+                    <button onclick="#" class="link"><span class="fa fa-external-link"></span></button>
+                </div>
+                <div class="desc hide" id="happysunshine">
+                    <p>A team of four and I created a High Fidelity Prototype of a mobile application for the Happy Sunshine Food Truck, created on UXPin. Project involved guerrilla research, Affinity Map, Business Model Canvas, mood boards, storyboarding,
+                        wireframes, paper prototype testing, and usability testing.</p>
+                </div>
             </div>
 
-            <div class="project">
-              <img src="img/julytalk.png" alt="July Talk Project" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facere, ab aperiam? Corporis ea a, labore reiciendis totam quasi repellat, quae consequatur veritatis dolorem doloribus beatae nulla id, maiores quibusdam.</p>
-            </div>
+
         </div>
     </div>
 </body>
