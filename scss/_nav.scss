@@ -14,13 +14,14 @@ nav {
   left:0;
   right:0;
   background-color: #010101;
-  mix-blend-mode: screen;
+  // mix-blend-mode: screen;
   height: 4em;
   width: 100%;
-  z-index:0;
+  z-index:100;
   text-align: right;
   font-family: $body;
   font-weight: 700;
+      opacity:0.9;
     a {
         text-decoration: none;
         color: #fff;
@@ -65,18 +66,19 @@ nav {
 $degree: 60deg;
 #left-corner {
     position: fixed;
-    top: -3em;
-    left: -4em;
+    top: -8.8em;
+    left: -5em;
     background-color: #010101;
-    width: 8em;
-    height: 8em;
+    width: 10em;
+    height: 18em;
     -ms-transform: rotate($degree);
     /* IE 9 */
     -webkit-transform: rotate($degree);
     /* Chrome, Safari, Opera */
     transform: rotate($degree);
-    mix-blend-mode: screen;
+    // mix-blend-mode: screen;
     z-index: 5;
+    opacity:0.9;
 }
 #left-corner-logo {
     position: fixed;
@@ -85,7 +87,7 @@ $degree: 60deg;
     width: 1.8em;
     height: 1.8em;
     mix-blend-mode: difference;
-    z-index: 6;
+    z-index: 150;
 }
 #logo {
     cursor: pointer;

@@ -678,13 +678,13 @@ nav {
   left: 0;
   right: 0;
   background-color: #010101;
-  mix-blend-mode: screen;
   height: 4em;
   width: 100%;
-  z-index: 0;
+  z-index: 100;
   text-align: right;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  opacity: 0.9; }
   nav a {
     text-decoration: none;
     color: #fff; }
@@ -717,18 +717,18 @@ nav {
 
 #left-corner {
   position: fixed;
-  top: -3em;
-  left: -4em;
+  top: -8.8em;
+  left: -5em;
   background-color: #010101;
-  width: 8em;
-  height: 8em;
+  width: 10em;
+  height: 18em;
   -ms-transform: rotate(60deg);
   /* IE 9 */
   -webkit-transform: rotate(60deg);
   /* Chrome, Safari, Opera */
   transform: rotate(60deg);
-  mix-blend-mode: screen;
-  z-index: 5; }
+  z-index: 5;
+  opacity: 0.9; }
 
 #left-corner-logo {
   position: fixed;
@@ -737,7 +737,7 @@ nav {
   width: 1.8em;
   height: 1.8em;
   mix-blend-mode: difference;
-  z-index: 6; }
+  z-index: 150; }
 
 #logo {
   cursor: pointer;
@@ -1081,16 +1081,10 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-.filler {
-  height: 3em;
-  z-index: -20; }
-
 .container {
   position: absolute;
   height: 37em;
-  overflow: scroll;
   padding-top: 40em;
-  margin-top: 1em;
   padding: 0 0.5em 1em 0.5em;
   text-align: justify; }
   .container .project {
