@@ -673,6 +673,7 @@ body {
   font-weight: 400; }
 
 nav {
+  font-size: 0.9em;
   position: fixed;
   top: 0;
   left: 0;
@@ -702,6 +703,9 @@ nav {
       padding: 1.4em 1em 0.4em 0.4em;
       margin: 0;
       cursor: pointer; }
+  @media screen and (min-width: 480px) {
+    nav {
+      font-size: 1em; } }
 
 #header-pic {
   position: relative;

@@ -1,7 +1,6 @@
 @import "fix";
 @import "normalize";
 @import "vars";
-
 body {
     font-size: 1em;
     background-color: #fff;
@@ -9,28 +8,27 @@ body {
     font-weight: 400;
 }
 nav {
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  background-color: #010101;
-  // mix-blend-mode: screen;
-  height: 4em;
-  width: 100%;
-  z-index:100;
-  text-align: right;
-  font-family: $body;
-  font-weight: 700;
-      opacity:0.9;
+    font-size: 0.9em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #010101;
+    // mix-blend-mode: screen;
+    height: 4em;
+    width: 100%;
+    z-index: 100;
+    text-align: right;
+    font-family: $body;
+    font-weight: 700;
+    opacity: 0.9;
     a {
         text-decoration: none;
         color: #fff;
-
         &:hover {
-          color: $yellow;
-          text-decoration: underline;
+            color: $yellow;
+            text-decoration: underline;
         }
-
     }
     ul {
         margin: 0;
@@ -47,10 +45,10 @@ nav {
             cursor: pointer;
         }
     }
+    @media screen and (min-width:480px) {
+        font-size: 1em;
+    }
 }
-
-
-
 #header-pic {
     position: relative;
     top: 0;
@@ -78,7 +76,7 @@ $degree: 60deg;
     transform: rotate($degree);
     // mix-blend-mode: screen;
     z-index: 5;
-    opacity:0.9;
+    opacity: 0.9;
 }
 #left-corner-logo {
     position: fixed;
