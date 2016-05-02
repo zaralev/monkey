@@ -1,12 +1,24 @@
 @import "fix";
 @import "normalize";
 @import "vars"; //
-
+.filler {
+  height:3em;
+  z-index:-20;
+}
 .container {
-  padding: 1em;
+  position:absolute;
+  height:37em;
+  overflow:scroll;
+  padding-top:40em;
+  margin-top: 1em;
+  padding: 0 0.5em 1em 0.5em;
   text-align:justify;
   .project {
-    border: 0.1em solid gray;
+    border: 0.1em solid #eee;
+    padding: 1em;
+    img {
+      max-width: 100%;
+    }
   }
 }
 h1 {
