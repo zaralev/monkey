@@ -751,6 +751,8 @@ nav {
   height: 1.8em;
   mix-blend-mode: difference;
   z-index: 150; }
+  #left-corner-logo img {
+    width: 100%; }
 
 #logo {
   cursor: pointer;
