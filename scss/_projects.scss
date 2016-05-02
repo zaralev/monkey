@@ -1,0 +1,14 @@
+@import "fix";
+@import "normalize";
+@import "vars"; //
+
+.container {
+  padding: 1em;
+  text-align:justify;
+  .project {
+    border: 0.1em solid gray;
+  }
+}
+h1 {
+  text-decoration: underline;
+}
