@@ -1117,7 +1117,7 @@ textarea {
     .container .project .top {
       padding: 1em;
       margin-top: -1em; }
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 550px) {
       .container .project {
         width: 47%;
         margin: 0 0.5em 1em 0.5em; } }
